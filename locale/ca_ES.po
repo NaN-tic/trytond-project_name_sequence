@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.action,name:act_work_configuration_form"
+msgid "Work Configuration"
+msgstr "Configuració treball"
+
+msgctxt "model:ir.sequence,name:sequence_work"
+msgid "Work"
+msgstr "Treball"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_work"
+msgid "Work"
+msgstr "Treball"
+
+msgctxt "model:ir.ui.menu,name:menu_work_configuration"
+msgid "Work Configuration"
+msgstr "Configuració treball"
+
+msgctxt "view:work.configuration:"
+msgid "Work Configuration"
+msgstr "Configuració treball"
