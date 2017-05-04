@@ -36,3 +36,11 @@ class Work:
             if not values.get('name') or (values.get('name') is None):
                 values['name'] = Sequence.get_id(config.work_sequence)
         return super(Work, cls).create(vlist)
+
+    @classmethod
+    def copy(cls, works, default=None):
+        if default is None:
+            default = {}
+        if 'name' not in default:
+            default['name'] = None
+        return super(Work, cls).copy(works, default)
