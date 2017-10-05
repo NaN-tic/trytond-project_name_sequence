@@ -1,22 +1,13 @@
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
-from trytond.model import ModelView, ModelSQL, ModelSingleton, fields
 from trytond.pool import Pool, PoolMeta
 
-__all__ = ['Configuration', 'Work']
+__all__ = ['Work']
 
-
-class Configuration(ModelSingleton, ModelSQL, ModelView):
-    'Work Configuration'
-    __name__ = 'work.configuration'
-    work_sequence = fields.Property(fields.Many2One('ir.sequence',
-            'Work Sequence', domain=[
-                ('code', '=', 'project.work'),
-                ]))
 
 class Work:
-    __name__ = 'project.work'
     __metaclass__ = PoolMeta
+    __name__ = 'project.work'
 
     @classmethod
     def __setup__(cls):
