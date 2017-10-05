@@ -2,7 +2,11 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "model:ir.action,name:act_work_configuration_form"
+msgctxt "field:work.configuration,work_sequence:"
+msgid "Work Sequence"
+msgstr "Secuencia trabajo"
+
+msgctxt "model:ir.action,name:"
 msgid "Work Configuration"
 msgstr "Configuración trabajo"
 
@@ -14,7 +18,7 @@ msgctxt "model:ir.sequence.type,name:sequence_type_work"
 msgid "Work"
 msgstr "Trabajo"
 
-msgctxt "model:ir.ui.menu,name:menu_work_configuration"
+msgctxt "model:ir.ui.menu,name:"
 msgid "Work Configuration"
 msgstr "Configuración trabajo"
 
